@@ -12,7 +12,6 @@
 
     body {
       margin: 0;
-      background: #181818;
     }
 
     .icon {
@@ -24,17 +23,18 @@
 
     @keyframes heartFadeInOut {
       0% {transform: scale(1);}
-      25% {transform: scale(.99);}
-      35% {transform: scale(.98);}
-      50% {transform: scale(1.02);}
-      55% {transform: scale(.98);}
-      64% {transform: scale(1.02);}
-      70% {transform: scale(1.01);}
+      25% {transform: scale(.995);}
+      35% {transform: scale(.985);}
+      50% {transform: scale(1.015);}
+      55% {transform: scale(.985);}
+      64% {transform: scale(1.015);}
+      70% {transform: scale(1.015);}
       100% {transform: scale(1);}
     }
 
     .logo {
-      width: 150px; 
+      margin: 0 2rem 2rem 2rem;
+      max-width: 150px; 
       fill: #740808;
       animation-name: heartFadeInOut; 
       animation-iteration-count: infinite;
